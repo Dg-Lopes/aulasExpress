@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<h1>Login de Usuário</h1>
+    <form action="/users/login" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha">
+        <input type="checkbox" name="logado" id="logado">
+        <label for="logado">Manter Logado ?</label>
+        <button type="submit">LOGAR</button>
+    </form>
+</body>
+</html>

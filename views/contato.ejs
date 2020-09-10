@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>Olá <%= nomeUsuario %></h1>
+    <form action="/confirmarcontato" method="get">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" placeholder="Digite um nome">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email" placeholder="Digite um email">
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
